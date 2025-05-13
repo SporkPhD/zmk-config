@@ -12,7 +12,7 @@
     keymap {
         compatible = "zmk,keymap";
     &mt {
-        tapping-term-ms = <200>; // This is the value already set by default
+        tapping-term-ms = <500>; // This is the value already set by default
         };
 
         default_layer {
