@@ -9,11 +9,12 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    keymap {
-        compatible = "zmk,keymap";
     &mt {
         tapping-term-ms = <500>; // This is the value already set by default
         };
+
+    keymap {
+        compatible = "zmk,keymap";
 
         default_layer {
 /* QWERTY
